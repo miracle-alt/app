@@ -35,10 +35,10 @@ app.get('/product/:productId', (req, res) => {
 
 
 
+const PORT = process.env.PORT || 5555;
 
-
-app.listen(5555, () => {
-    console.log(`Application server is running on port ${5555}`);
+app.listen(PORT, () => {
+    console.log(`Application server is running on port ${PORT}`);
 });
 
 
